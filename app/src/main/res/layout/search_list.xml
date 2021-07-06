@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--搜索列表的显示文本-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="@color/blackFont"
+        android:id="@+id/tv_two"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="2"
+        android:layout_weight="1"
+        android:textColor="@color/hintWords"
+        android:id="@+id/tv_three"/>
+
+</LinearLayout>

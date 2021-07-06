@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_recommend">
+
+    <fragment
+        android:id="@+id/navigation_recommend"
+        android:name="cn.itcast.librarydemo.ui.recommend.RecommendFragment"
+        android:label="@string/title_recommend"
+        tools:layout="@layout/fragment_recommend" />
+
+    <fragment
+        android:id="@+id/navigation_discover"
+        android:name="cn.itcast.librarydemo.ui.discover.DiscoverFragment"
+        android:label="@string/title_discover"
+        tools:layout="@layout/fragment_discover" />
+
+    <fragment
+        android:id="@+id/navigation_borrow"
+        android:name="cn.itcast.librarydemo.ui.borrow.BorrowFragment"
+        android:label="@string/title_borrow"
+        tools:layout="@layout/fragment_borrow" />
+</navigation>

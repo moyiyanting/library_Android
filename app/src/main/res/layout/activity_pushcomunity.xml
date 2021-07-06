@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--创建说说页面-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:tint="#000"
+            android:src="@drawable/back"
+            android:id="@+id/back"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="60dp"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="创建说说"
+            android:id="@+id/rec"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eee"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/com_name"
+            android:paddingLeft="15dp"
+            android:background="@drawable/shape_edit"
+            android:layout_marginTop="10dp"
+            android:hint="请输入主题"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/com_info"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/shape_edit"
+            android:layout_marginTop="25dp"
+            android:gravity="top"
+            android:hint="请输入内容"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pushcom"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:textColor="@color/blackFont"
+        android:background="@drawable/shape_button"
+        android:text="创建"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

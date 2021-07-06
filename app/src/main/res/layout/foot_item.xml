@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--正在加载页面-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <!--分页加载  底部的提示信息-->
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/footText"
+        android:text="正在加载……"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

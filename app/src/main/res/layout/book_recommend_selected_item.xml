@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--recommend的listview的item布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 图书封面-->
+    <ImageView
+        android:id="@+id/iv_book_image"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_weight="3"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+        <!-- 图书书名-->
+        <TextView
+            android:id="@+id/tv_book_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="书名"/>
+        <!-- 图书评分-->
+        <TextView
+            android:id="@+id/tv_book_score"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="评分"/>
+    </LinearLayout>
+
+
+</LinearLayout>

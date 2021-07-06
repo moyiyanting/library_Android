@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="-2dp"
+        android:right="-2dp"
+        android:top="-2dp">
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke
+                android:width="0.5dp"
+                android:color="#ffe5e5e5" />
+        </shape>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:shape="rectangle"
+            >
+            <!--设置填充色    -->
+            <solid android:color="@color/colorPrimary"/>
+            <corners android:radius="15dip"/>
+            <stroke android:width="1sp"
+                android:color="#BFBFBF"/>
+            <!--定位-->
+            <padding
+                android:bottom="2dp"
+                android:left="8dp"
+                android:right="8dp"
+                android:top="2dp" />
+            <!--    圆角-->
+            <!--    <corners-->
+            <!--    android:bottomLeftRadius="1dp"-->
+            <!--    android:bottomRightRadius="0dp"-->
+            <!--    android:topLeftRadius="0dp"-->
+            <!--    android:topRightRadius="0dp" />-->
+        </shape>
+    </item>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:shape="rectangle"
+        >
+        <!--设置填充色    -->
+        <solid android:color="@color/colorPrimary"/>
+        <corners android:radius="15dip"/>
+        <stroke android:width="1sp"
+            android:color="#BFBFBF"/>
+        <!--定位-->
+        <padding
+            android:bottom="2dp"
+            android:left="8dp"
+            android:right="8dp"
+            android:top="2dp" />
+        <!--    圆角-->
+        <!--    <corners-->
+        <!--    android:bottomLeftRadius="1dp"-->
+        <!--    android:bottomRightRadius="0dp"-->
+        <!--    android:topLeftRadius="0dp"-->
+        <!--    android:topRightRadius="0dp" />-->
+    </shape>
+</layer-list>

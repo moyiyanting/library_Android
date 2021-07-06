@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--登录界面-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="274dp"
+        android:layout_height="153dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/logo_sign_in" />
+
+    <EditText
+        android:id="@+id/user_sign_id"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:lines="1"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/user_name_id"
+        android:theme="@style/EditViewTheme"/>
+
+    <EditText
+        android:id="@+id/user_password_a"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/password_hint"
+        android:theme="@style/EditViewTheme"/>
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="@string/sign_in"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_rectangle_theme" />
+
+    <TextView
+        android:id="@+id/user_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_register"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:onClick="textView"/>
+
+</LinearLayout>

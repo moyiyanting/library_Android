@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--推荐页面的的自定义标题栏-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/windowBackground"
+    android:divider="@drawable/title_line"
+    >
+
+    <ImageButton
+        android:id="@+id/title_touxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/windowBackground"
+        android:src="@drawable/btn_touxiang" />
+
+    <TextView
+        android:id="@+id/main_title_recommend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="推荐"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+    
+    <ImageButton
+        android:id="@+id/sao_ma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/windowBackground"
+        android:src="@drawable/btn_saoma"/>
+
+</LinearLayout>
